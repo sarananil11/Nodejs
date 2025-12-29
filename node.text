@@ -1,8 +1,8 @@
-node js is run time environment  
+node js is server run time environment  of JavaScript.
 build in chrome v8 engine
 features:
 .asynchronous and non blocking
-.single-threaded event loop:
+.single-threaded event loop: handles many operations using a main function
 .high performance
 .cross platform
 .npm (node package manager)
@@ -16,7 +16,7 @@ Advantages:
 ⦁	fast execution
 ⦁	real-time
 ⦁	single language for frontend and backend
-⦁	module Architecture
+⦁	module Architecture - handles a big program as small chunks of codes.
 ⦁	large community
 ⦁	scalability
 ⦁	JSON support
@@ -36,7 +36,7 @@ os:used get operating system info
 events:handle custom events
 
 
-fs:
+1. fs:
 used to interact with file system-reading/writing files
 
 common methods:
@@ -50,3 +50,35 @@ fs.rmdir():remove a directory
 
 writeFile is asynchronous and non-blocking method
 writeFileSync is synchronous and blocking method
+
+
+
+
+2. http: 
+used to create servers
+to handle request of clients and to send response.
+
+basic methods :
+http.createServer()
+Req(incoming request)
+Res(outgoing request)
+
+
+3. path
+helps work with file and directory
+
+4. Os
+console.log(os.type());
+console.log(os.platform());
+console.log(os.arch());
+console.log(os.freemem());
+console.log(os.totalmem());
+
+
+
+5. url
+to take specific details of our urls.
+
+common methods:
+new URL()
+.hostname, .pathname, .searchParams

@@ -1,4 +1,4 @@
-console.log("hello afdel");
+console.log("hello saran");
 const { log } = require("console");
 const fs = require("fs");
 const { text } = require("stream/consumers");
@@ -18,6 +18,10 @@ const { text } = require("stream/consumers");
 //     console.log("Data added")
 // })
 
+
+
+// here, data is used to store the data in the text file and then the data is called in console. 
+// utf8 is used to convert the buffer code to string
 
 // fs.readFile("myFolder/text.txt",'utf8',(err,data)=>{
 //     if(err) throw err;
@@ -48,8 +52,8 @@ const { text } = require("stream/consumers");
     
 // })
 
-fs.appendFile("core_Modules/text.txt","hahahahaha\nwhy so serious",(err)=>{
-    if (err) throw err;
-    console.log("appended");
+// fs.appendFile("core_Modules/text.txt","hahahahaha\nwhy so serious",(err)=>{
+//     if (err) throw err;
+//     console.log("appended");
     
-})
+// })
