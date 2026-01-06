@@ -26,7 +26,7 @@ node.js Modules:
 2.local module
 3.third-party module
 
-⦁	core modules
+⦁	CORE MODULES
  this are build in into node js
  fs:file system
 http:create server and handle
@@ -103,3 +103,12 @@ It is a module that we create ourselves in our project.
         console.log("Hello students");
     }
     module.exports = sayHello
+
+
+6-1-2026
+
+THIRD PARTY MODULES
+
+# These are external packages that you install using npm 
+# eg: axios, express(framework of node), Mongoose...
+
