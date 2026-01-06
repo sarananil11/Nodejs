@@ -82,3 +82,24 @@ to take specific details of our urls.
 common methods:
 new URL()
 .hostname, .pathname, .searchParams
+
+
+2-1-2026
+
+Events (EventEmitter)
+# allows creation of custom events and listners
+# common methods : on() - listens to an event,  emit() - trigger event
+
+
+
+LOCAL MODULES
+
+It is a module that we create ourselves in our project.
+# Local modules are files we write and maintain.
+# Use module.exports to expose data/function.
+# USe require('./modulename') to import them.
+# eg : 
+    function sayHello(){
+        console.log("Hello students");
+    }
+    module.exports = sayHello
